@@ -1,5 +1,3 @@
-# What's new in Peanut Butter?
-
 Once again, it's been a while since I've posted anything here. One reason is just that I've spent
 a lot of time in JavaScript / TypeScript land over the last year, so haven't had to deal much with
 .net stuffs -- well, at least I haven't had to deal much with new things that I need done in that
