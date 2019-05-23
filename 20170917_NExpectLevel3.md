@@ -1,4 +1,4 @@
-In previous posts, I've examined how to do [simple](20170921_NExpectLevel1.md)
+In previous posts, I've examined how to do [simple](20170917_NExpectLevel1.md)
 and [collection-based](20190917_NExpectLevel2.md) assertions with
 [NExpect](https://github.com/fluffynuts/NExpect)
 
