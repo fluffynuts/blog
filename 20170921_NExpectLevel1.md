@@ -1,6 +1,6 @@
 I [recently introduced](20180918_IntroducingNExpect.md) [NExpect](https://github.com/fluffynuts/NExpect) as an alternative assertions library. I thought it might be nice to go through usage, from zero to hero.
 
-NExpect is available for .NET Framework 4.5.2 and above as well as 
+NExpect is available for .NET Framework 4.5.2 and above as well as
 anything which can target .NET Standard 1.6 (tested with .NET Core 2.0)
 
 So here goes, level 1: testing objects and values.<br />
@@ -65,7 +65,7 @@ public void ShouldUpcastAsRequired()
   uint c = 3;
   long d = 4;
 
-  // Assert 
+  // Assert
   Expect(b).To.Be.Greater.Than(a);
   Expect(c).To.Be.Greater.Than(b);
   Expect(d).To.Be.Greater.Than(a);
@@ -99,7 +99,7 @@ public void TestingPropertiesOneByOne()
 {
   // Arrange
   var sut = new PersonRepository();
-  
+
   // Act
   var person = sut.FindById(1);
 
@@ -119,7 +119,7 @@ public void DeepEqualityTesting()
 {
   // Arrange
   var sut = new PersonRepository();
-  
+
   // Act
   var person = sut.FindById(1);
 
@@ -135,9 +135,9 @@ This exposes our test for what it's really doing: when searching for the person 
 which describes Jane in our system. Our test is speaking about _intent_, not just confirming value equality. Notice that the type
 of the object used for comparison doesn't matter, and this holds for properties too.
 
-Note that I omitted the test for null in the second variant. You 
+Note that I omitted the test for null in the second variant. You
 don't need it because the deep equality tester will deal with that
-just fine. However, you are obviously still free to include it for the 
+just fine. However, you are obviously still free to include it for the
 sake of clarity.
 
 [NExpect](https://github.com/fluffynuts/NExpect) gets this "for free"
@@ -154,7 +154,7 @@ public void IntersectionEqualityTesting()
 {
   // Arrange
   var sut = new PersonRepository();
-    
+
   // Act
   var person = sut.FindById(1);
 
@@ -213,8 +213,8 @@ public class TestingExceptions
   private void Chucky()
   {
     throw new ArgumentException(
-      "The cow says moo", 
-      "moo", 
+      "The cow says moo",
+      "moo",
       new Exception("inner exception"));
   }
 }
