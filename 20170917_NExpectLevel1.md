@@ -1,4 +1,5 @@
-I [recently introduced](20180918_IntroducingNExpect.md) [NExpect](https://github.com/fluffynuts/NExpect) as an alternative assertions library. I thought it might be nice to go through usage, from zero to hero.
+I [recently introduced](20170918_IntroducingNExpect.md) 
+[NExpect](https://github.com/fluffynuts/NExpect) as an alternative assertions library. I thought it might be nice to go through usage, from zero to hero.
 
 NExpect is available for .NET Framework 4.5.2 and above as well as
 anything which can target .NET Standard 1.6 (tested with .NET Core 2.0)
