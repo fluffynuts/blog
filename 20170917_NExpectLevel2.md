@@ -1,4 +1,4 @@
-In a [prior post](20170921_NExpectLevel1.md), I covered simple value testing with
+In a [prior post](20170917_NExpectLevel1.md), I covered simple value testing with
 [NExpect](https://github.com/fluffynuts/NExpect). In this post, I'd like to delve into collection assertions, since they are fairly common.
 
 First, the simplest: asserting that a collection contains a desired value:<br />
