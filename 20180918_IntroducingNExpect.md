@@ -1,4 +1,3 @@
-<pre class="markdown">
 About a year or so ago, I discovered <code>AssertionHelper</code>, a base class provided by <a href="https://github.com/nunit/nunit">NUnit</a> which allowed for a more familiar style of testing when one has to bounce back and forth between (Java|Type)Script and C#. Basically, it allows one to use the Expect keyword to start an assertion, eg:<br />
 ```csharp
 [TestFixture]
@@ -16,7 +15,7 @@ And, for a while, that sufficed. But there were some aspects of this which bothe
 - The tenses are wrong: `Expect` is _future-tense_, and `Is.True` is _present-tense_. Now, I happen to like the _future-tensed_ `Expect` syntax -- it really falls in line with writing your test first:
 - I write code to set up the test
 - I write code to run the system-under-test
-- <i>I expect some results
+- I expect some results
 - I run the test
 - It fails!
 - I write the code
