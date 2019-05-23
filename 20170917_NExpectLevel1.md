@@ -1,4 +1,4 @@
-I [recently introduced](20170918_IntroducingNExpect.md) 
+I [recently introduced](20170918_IntroducingNExpect.md)
 [NExpect](https://github.com/fluffynuts/NExpect) as an alternative assertions library. I thought it might be nice to go through usage, from zero to hero.
 
 NExpect is available for .NET Framework 4.5.2 and above as well as
@@ -221,4 +221,4 @@ public class TestingExceptions
 }
 ```
 
-Next, we'll explore simple collection testing. [Tune in for Level 2](20170921_NExpectLevel2.md)!
+Next, we'll explore simple collection testing. [Tune in for Level 2](20170917_NExpectLevel2.md)!
